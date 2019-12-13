@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'McLaren', cursive; sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: gray;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #sign-out, #nav-app-title {
+    margin-right: 10px;
+  }
+
+  #nav-app-title {
+    display:flex;
+    flex: auto;
+    margin-left: 1em;
+  }
+
+  .task-list {
+    margin-top:6rem;
+  }
+
+  .event-task {
+    margin-right: 27em;
+    margin-left: 27em;
+    margin-bottom: 2em;
+    margin-top: 2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+
+  .task-image {
+    padding-top: 2rem;
+  }
+  
+  
+  header {
+    padding: 12% 0;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #ddd;
+  }
+  
+  section:nth-child(even) {
+    background-color:darkgrey;
+  }
+
+  margin: 17em

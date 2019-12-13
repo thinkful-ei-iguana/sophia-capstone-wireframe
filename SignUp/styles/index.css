@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'McLaren', cursive; sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+  }
+
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #ddd;
+  }
+
+  .signup-screen {
+    margin: 9em;
+    margin-right: 25em;
+    margin-left: 25em;
+    padding-top: 2em;
+    padding-bottom: 8em;
+  }
+
+  .app-name {
+    margin-bottom: 2em;
+  }
+
+  .signup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .signup-header {
+    margin-top: -39px;
+    margin-bottom: 57px;
+  }
+  
